@@ -1,0 +1,115 @@
+body {
+  background-color: #f2eae2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.product {
+  height: 220px;
+  width: 343px;
+  border-radius: 10px 10px 0px 0px;
+}
+.product-desktop {
+  display: none;
+  height: 450px;
+  width: 337.6936340332031px;
+}
+.card {
+  height: 611px;
+  width: 343px;
+  border-radius: 10px ;
+  background-color: white
+}
+
+.per {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  padding: 12px 24px;
+  color: #6c7289;
+  letter-spacing: 5px;
+}
+h1 {
+  font-family: "Fraunces", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  margin: 0px 24px;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #6c7289;
+  line-height: 23px;
+  margin: 16px 24px;
+}
+.price {
+  display: flex;
+  align-items: center;
+}
+.price-one {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #3d8168;
+  padding: 5px 24px;
+}
+.price-two {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  text-decoration-line: line-through;
+  margin: 0px -10px;
+}
+.button {
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 15px;
+
+  gap: 5px;
+}
+button {
+  text-decoration: none;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 15px 110px;
+  background-color: #3d8168;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+}
+.cart {
+  display: inline;
+  height: 16px;
+  width: 14.385202407836914px;
+}
+.button :hover {
+  background-color: #1a4032;
+}
+@media only screen and (min-width: 600px) {
+  .card {
+    height: 450px;
+    width: 600px;
+    display: flex;
+  }
+  .product {
+    display: none;
+  }
+  .product-desktop {
+    display: block;
+    border-radius: 10px 0  0 10px;
+  }
+}
